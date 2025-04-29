@@ -1,0 +1,29 @@
+project:
+  name: "Getting started with Cybershuttle"
+  description: "Run a simulation and understand the minimum macros required to run Cybershuttle"
+  homepage: https://github.com/cyber-shuttle/cybershuttle-reference
+  authors:
+    - smarru@gatech.edu
+  tags:
+    - cybershuttle
+    - apache-airavata
+    - reference
+
+workspace:
+  location: /workspace
+  resources:
+    min_cpu: 4
+    min_gpu: 0
+    min_mem: 0
+    gpu_mem: 1024
+  model_collection:
+    - source: cybershuttle
+      identifier: cybershuttle-reference
+      mount_point: /cybershuttle_data/cybershuttle-reference
+  data_collection: []
+
+additional_dependencies:
+  conda:
+    - python=3.10
+    - pip
+  pip: []
