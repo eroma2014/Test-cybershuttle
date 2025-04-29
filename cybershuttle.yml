@@ -1,13 +1,14 @@
 project:
-  name: "Getting started with Cybershuttle"
+  name: "Testing with Cybershuttle"
   description: "Run a simulation and understand the minimum macros required to run Cybershuttle"
   homepage: https://github.com/cyber-shuttle/cybershuttle-reference
   authors:
-    - smarru@gatech.edu
+    - eroma@gatech.edu
   tags:
     - cybershuttle
     - apache-airavata
     - reference
+    - Testing
 
 workspace:
   location: /workspace
